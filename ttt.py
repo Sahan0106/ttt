@@ -31,6 +31,7 @@ def drawshape(game,x,y):
         tur.down()
         tur.goto(-game.x*game.size/2+game.size*0.9+game.size*(y-1),game.y*game.size/2-game.size*0.1-game.size*(x-1))
         tur.up()
+//fuck you
 
 class game():
     def __init__(self,x,y):
